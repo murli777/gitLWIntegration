@@ -9,7 +9,7 @@ permissions: write-all
 jobs:
   run-action:
     name: Test with Leapwork
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     environment: test_environment
 
     steps:
