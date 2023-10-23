@@ -10,6 +10,7 @@ jobs:
   run-action:
     name: Test with Leapwork
     runs-on: ubuntu-latest
+    environment: test_environment
 
     steps:
       - uses: actions/checkout@v3
